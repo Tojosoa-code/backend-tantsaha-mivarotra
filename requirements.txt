@@ -1,0 +1,40 @@
+# =============================================================================
+# Backend FastAPI - Tantsaha Mivarotra (Version Optimisée)
+# =============================================================================
+
+# Framework Web
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.12
+
+# Base de données (Migration vers Psycopg 3 pour éviter les erreurs de compilation)
+sqlalchemy==2.0.25
+psycopg[binary]
+alembic==1.13.1
+
+# Validation et Configuration
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Sécurité et Authentification
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Utilitaires
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Calculs géospatiaux
+geopy==2.4.1
+
+# Tests
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.26.0
+pytest-cov==4.1.0
+
+# Développement (Outils de qualité de code)
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
