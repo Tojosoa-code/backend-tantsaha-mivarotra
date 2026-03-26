@@ -1,2 +1,5 @@
 /venv
 .env
+
+/verify_structure.bat
+/start.bat
